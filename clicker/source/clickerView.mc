@@ -1,8 +1,9 @@
 import Toybox.Graphics;
+import Toybox.Lang;
 import Toybox.WatchUi;
 
 class clickerView extends WatchUi.View {
-    private var count = 0;
+    private var count as Lang.Number = 0;
     private var maxCount = 99999;
     private var minCount = 0;
 
@@ -92,7 +93,7 @@ class clickerView extends WatchUi.View {
         WatchUi.requestUpdate();
     }
 
-    function getCount() as Number {
+    function getCount() as Lang.Number {
         return count;
     }
 

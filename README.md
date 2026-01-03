@@ -1,2 +1,2 @@
-# garmin-connect-iq-speed-glance
-it is a at a garmin iq application that is a clicker.
+# garmin-connect-iq-clicker
+It is a Garmin IQ application that is a clicker.

@@ -1,0 +1,5 @@
+{
+    "connectiq.privateKeyPath": "${workspaceFolder}/developer_key",
+    "connectiq.sdkPath": null,
+    "connectiq.jdkPath": null
+}

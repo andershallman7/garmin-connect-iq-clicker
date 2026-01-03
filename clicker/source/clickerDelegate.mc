@@ -25,11 +25,6 @@ class clickerDelegate extends WatchUi.BehaviorDelegate {
                 me.view.resetCount();
                 return true;
             
-            case WatchUi.KEY_BACK:
-                // Back button - exit the app
-                WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
-                return true;
-            
             default:
                 return false;
         }
