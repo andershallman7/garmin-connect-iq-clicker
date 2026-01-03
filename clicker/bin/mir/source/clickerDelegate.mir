@@ -1,0 +1,155 @@
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 4; @symbol_classdef = [clickerDelegate,4,6,21]; @symbol_extends<0> = [WatchUi,4,30,37]; @symbol_extends<1> = [BehaviorDelegate,4,38,54]; ]
+class clickerDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 5; @position = 16; @symbol_vardef = [view,5,16,20]; @symbol_type<0> = [clickerView,5,24,35]; ]
+    private
+    var view as clickerView;
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [view,7,24,28]; @symbol_param<0>_type<0> = [clickerView,7,32,43]; ]
+    function initialize(view as clickerView) as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_7_45_10_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 9 8 ]
+        symbol [ self %self 9 8 10 ];
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 9 18 22 ];
+        symbol [ view ? 9 11 15 ];
+        putv self :view %tmp.4;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_7_45_10_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 12; @symbol_functiondef = [onKey,12,13,18]; @symbol_param<0> = [keyEvent,12,19,27]; @symbol_param<0>_type<0> = [KeyEvent,12,31,39]; @symbol_return<0> = [Boolean,12,44,51]; ]
+    function onKey(keyEvent as KeyEvent) as Boolean {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_12_52_36_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 13 8 ]
+        [ "C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_12_52_36_4_start" "C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_12_52_36_4_stop" ]
+        %key.1 = local;
+        symbol [ key %key.1 13 12 15 ];
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 13 18 26 ];
+        symbol [ getKey %tmp.2 13 27 33 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %key.1 %tmp.3;
+        symbol [ key %key.1 13 12 15 ];
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 15 8 ]
+        %tmp.4 = lgetv %key.1;
+        symbol [ key %tmp.4 15 15 18 ];
+        push %tmp.4;
+        switch %tmp.4 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_15_8_35_8_switchStmtEnd;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_15_8_35_8_switchStmtBegin:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 16 12 ]
+        %tmp.5 = dup %tmp.4;
+        symbol [ WatchUi %tmp.6 16 17 24 ];
+        %tmp.6 = getm $.Toybox.WatchUi;
+        symbol [ KEY_UP %tmp.7 16 25 31 ];
+        %tmp.7 = getv %tmp.6 :KEY_UP;
+        %tmp.8 = getv function %tmp.5 :equals;
+        %tmp.9 = invoke %tmp.5 %tmp.8 (%tmp.7);
+        bt %tmp.9 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_16_12_18_27_switchCase;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 20 12 ]
+        %tmp.10 = dup %tmp.4;
+        symbol [ WatchUi %tmp.11 20 17 24 ];
+        %tmp.11 = getm $.Toybox.WatchUi;
+        symbol [ KEY_DOWN %tmp.12 20 25 33 ];
+        %tmp.12 = getv %tmp.11 :KEY_DOWN;
+        %tmp.13 = getv function %tmp.10 :equals;
+        %tmp.14 = invoke %tmp.10 %tmp.13 (%tmp.12);
+        bt %tmp.14 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_20_12_22_27_switchCase;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 24 12 ]
+        %tmp.15 = dup %tmp.4;
+        symbol [ WatchUi %tmp.16 24 17 24 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ KEY_START %tmp.17 24 25 34 ];
+        %tmp.17 = getv %tmp.16 :KEY_START;
+        %tmp.18 = getv function %tmp.15 :equals;
+        %tmp.19 = invoke %tmp.15 %tmp.18 (%tmp.17);
+        bt %tmp.19 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_24_12_26_27_switchCase;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 28 12 ]
+        %tmp.20 = dup %tmp.4;
+        symbol [ WatchUi %tmp.21 28 17 24 ];
+        %tmp.21 = getm $.Toybox.WatchUi;
+        symbol [ KEY_BACK %tmp.22 28 25 33 ];
+        %tmp.22 = getv %tmp.21 :KEY_BACK;
+        %tmp.23 = getv function %tmp.20 :equals;
+        %tmp.24 = invoke %tmp.20 %tmp.23 (%tmp.22);
+        bt %tmp.24 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_28_12_31_27_switchCase;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 33 12 ]
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_15_8_35_8_switchStmtDefault:
+        goto @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_15_8_35_8_defaultCodeBegin;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_16_12_18_27_switchCase:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 17 16 ]
+        %tmp.25 = self;
+        symbol [ me %tmp.25 17 16 18 ];
+        symbol [ view %tmp.26 17 19 23 ];
+        %tmp.26 = getv %tmp.25 :view;
+        symbol [ incrementCount %tmp.27 17 24 38 ];
+        %tmp.27 = getv function %tmp.26 :incrementCount;
+        invoke %tmp.26 %tmp.27();
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 18 16 ]
+        %tmp.28 = true;
+        ret %tmp.28;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_20_12_22_27_switchCase:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 21 16 ]
+        %tmp.29 = self;
+        symbol [ me %tmp.29 21 16 18 ];
+        symbol [ view %tmp.30 21 19 23 ];
+        %tmp.30 = getv %tmp.29 :view;
+        symbol [ decrementCount %tmp.31 21 24 38 ];
+        %tmp.31 = getv function %tmp.30 :decrementCount;
+        invoke %tmp.30 %tmp.31();
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 22 16 ]
+        %tmp.32 = true;
+        ret %tmp.32;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_24_12_26_27_switchCase:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 25 16 ]
+        %tmp.33 = self;
+        symbol [ me %tmp.33 25 16 18 ];
+        symbol [ view %tmp.34 25 19 23 ];
+        %tmp.34 = getv %tmp.33 :view;
+        symbol [ resetCount %tmp.35 25 24 34 ];
+        %tmp.35 = getv function %tmp.34 :resetCount;
+        invoke %tmp.34 %tmp.35();
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 26 16 ]
+        %tmp.36 = true;
+        ret %tmp.36;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_28_12_31_27_switchCase:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 30 16 ]
+        symbol [ WatchUi %tmp.37 30 16 23 ];
+        %tmp.37 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.38 30 24 31 ];
+        %tmp.38 = getv function %tmp.37 :popView;
+        symbol [ WatchUi %tmp.39 30 32 39 ];
+        %tmp.39 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.40 30 40 55 ];
+        %tmp.40 = getv %tmp.39 :SLIDE_IMMEDIATE;
+        invoke %tmp.37 %tmp.38(%tmp.40);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 31 16 ]
+        %tmp.41 = true;
+        ret %tmp.41;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_33_12_34_28_switchCase:
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_15_8_35_8_defaultCodeBegin:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc" 34 16 ]
+        %tmp.42 = false;
+        ret %tmp.42;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_15_8_35_8_switchStmtEnd:
+        pop;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clickerDelegate_mc_12_52_36_4_stop:
+    }
+}
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker\source\clickerDelegate.mc"; @line = 1; ]
+<init> {
+}
