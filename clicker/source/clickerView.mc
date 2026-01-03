@@ -44,7 +44,7 @@ class clickerView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(
             dc.getWidth() / 2,
-            dc.getHeight() - 60,
+            dc.getHeight() - 125,
             Graphics.FONT_SMALL,
             "UP/DOWN: Change",
             Graphics.TEXT_JUSTIFY_CENTER
@@ -52,7 +52,7 @@ class clickerView extends WatchUi.View {
         
         dc.drawText(
             dc.getWidth() / 2,
-            dc.getHeight() - 40,
+            dc.getHeight() - 90,
             Graphics.FONT_SMALL,
             "START: Reset",
             Graphics.TEXT_JUSTIFY_CENTER

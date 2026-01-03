@@ -194,7 +194,7 @@ C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clicker
         symbol [ getHeight %tmp.68 47 15 24 ];
         %tmp.68 = getv function %tmp.67 :getHeight;
         %tmp.69 = invoke %tmp.67 %tmp.68();
-        %tmp.70 = 60;
+        %tmp.70 = 125;
         %tmp.71 = sub %tmp.69 %tmp.70;
         symbol [ Graphics %tmp.72 48 12 20 ];
         %tmp.72 = getm $.Toybox.Graphics;
@@ -223,7 +223,7 @@ C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clicker_source_clicker
         symbol [ getHeight %tmp.85 55 15 24 ];
         %tmp.85 = getv function %tmp.84 :getHeight;
         %tmp.86 = invoke %tmp.84 %tmp.85();
-        %tmp.87 = 40;
+        %tmp.87 = 90;
         %tmp.88 = sub %tmp.86 %tmp.87;
         symbol [ Graphics %tmp.89 56 12 20 ];
         %tmp.89 = getm $.Toybox.Graphics;
