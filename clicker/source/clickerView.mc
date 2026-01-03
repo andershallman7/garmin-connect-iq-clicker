@@ -28,7 +28,7 @@ class clickerView extends WatchUi.View {
             dc.getWidth() / 2,
             30,
             Graphics.FONT_MEDIUM,
-            "IP Counter",
+            "Counter",
             Graphics.TEXT_JUSTIFY_CENTER
         );
 
