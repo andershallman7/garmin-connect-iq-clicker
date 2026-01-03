@@ -1,0 +1,330 @@
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 5; @symbol_classdef = [clickeerView,5,6,18]; @symbol_extends<0> = [WatchUi,5,27,34]; @symbol_extends<1> = [View,5,35,39]; ]
+class clickeerView extends WatchUi.View {
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 6; @position = 16; @symbol_vardef = [count,6,16,21]; @symbol_type<0> = [Lang,6,25,29]; @symbol_type<1> = [Number,6,30,36]; ]
+    private
+    var count as Lang.Number = 0;
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 7; @position = 16; @symbol_vardef = [maxCount,7,16,24]; ]
+    private
+    var maxCount = 99999;
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 8; @position = 16; @symbol_vardef = [minCount,8,16,24]; ]
+    private
+    var minCount = 0;
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
+    function initialize() as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_10_26_12_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 11 8 ]
+        symbol [ View %tmp.2 11 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 11 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_10_26_12_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 14; @symbol_functiondef = [onLayout,14,13,21]; @symbol_param<0> = [dc,14,22,24]; @symbol_param<0>_type<0> = [Dc,14,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_14_40_16_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 15 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 15 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 15 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 15 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 15 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 15 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_14_40_16_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 18; @symbol_functiondef = [onShow,18,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 21; @symbol_functiondef = [onUpdate,21,13,21]; @symbol_param<0> = [dc,21,22,24]; @symbol_param<0>_type<0> = [Dc,21,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_21_40_60_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 22 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 22 8 10 ];
+        symbol [ setColor %tmp.2 22 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 22 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 22 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 22 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.6 22 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_WHITE;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 23 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 23 8 10 ];
+        symbol [ clear %tmp.8 23 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 25 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 25 8 10 ];
+        symbol [ setColor %tmp.10 25 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 25 20 28 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.12 25 29 40 ];
+        %tmp.12 = getv %tmp.11 :COLOR_BLACK;
+        symbol [ Graphics %tmp.13 25 42 50 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 25 51 68 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 27 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 27 8 10 ];
+        symbol [ drawText %tmp.16 27 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 28 12 14 ];
+        symbol [ getWidth %tmp.18 28 15 23 ];
+        %tmp.18 = getv function %tmp.17 :getWidth;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = 30;
+        symbol [ Graphics %tmp.23 30 12 20 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.24 30 21 32 ];
+        %tmp.24 = getv %tmp.23 :FONT_MEDIUM;
+        %tmp.25 = "Counter";
+        symbol [ Graphics %tmp.26 32 12 20 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 32 21 40 ];
+        %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.22, %tmp.24, %tmp.25, %tmp.27);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 35 8 ]
+        [ "C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_21_40_60_4_start" "C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_21_40_60_4_stop" ]
+        %countText.1 = local;
+        symbol [ countText %countText.1 35 12 21 ];
+        symbol [ count %tmp.29 35 24 29 ];
+        %tmp.29 = getv ? :count;
+        symbol [ toString %tmp.30 35 30 38 ];
+        %tmp.30 = getv function %tmp.29 :toString;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        lputv %countText.1 %tmp.31;
+        symbol [ countText %countText.1 35 12 21 ];
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 36 8 ]
+        %tmp.32 = lgetv %dc;
+        symbol [ dc %tmp.32 36 8 10 ];
+        symbol [ drawText %tmp.33 36 11 19 ];
+        %tmp.33 = getv function %tmp.32 :drawText;
+        %tmp.34 = lgetv %dc;
+        symbol [ dc %tmp.34 37 12 14 ];
+        symbol [ getWidth %tmp.35 37 15 23 ];
+        %tmp.35 = getv function %tmp.34 :getWidth;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        %tmp.37 = 2;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        %tmp.39 = lgetv %dc;
+        symbol [ dc %tmp.39 38 12 14 ];
+        symbol [ getHeight %tmp.40 38 15 24 ];
+        %tmp.40 = getv function %tmp.39 :getHeight;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        %tmp.42 = 2;
+        %tmp.43 = div %tmp.41 %tmp.42;
+        %tmp.44 = 20;
+        %tmp.45 = sub %tmp.43 %tmp.44;
+        symbol [ Graphics %tmp.46 39 12 20 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MILD %tmp.47 39 21 37 ];
+        %tmp.47 = getv %tmp.46 :FONT_NUMBER_MILD;
+        %tmp.48 = lgetv %countText.1;
+        symbol [ countText %tmp.48 40 12 21 ];
+        symbol [ Graphics %tmp.49 41 12 20 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.50 41 21 40 ];
+        %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.51 41 43 51 ];
+        %tmp.51 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.52 41 52 72 ];
+        %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_VCENTER;
+        %tmp.53 = bitor %tmp.50 %tmp.52;
+        invoke %tmp.32 %tmp.33(%tmp.38, %tmp.45, %tmp.47, %tmp.48, %tmp.53);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 44 8 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 44 8 10 ];
+        symbol [ setColor %tmp.55 44 11 19 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        symbol [ Graphics %tmp.56 44 20 28 ];
+        %tmp.56 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.57 44 29 42 ];
+        %tmp.57 = getv %tmp.56 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.58 44 44 52 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.59 44 53 70 ];
+        %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.59);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 45 8 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 45 8 10 ];
+        symbol [ drawText %tmp.61 45 11 19 ];
+        %tmp.61 = getv function %tmp.60 :drawText;
+        %tmp.62 = lgetv %dc;
+        symbol [ dc %tmp.62 46 12 14 ];
+        symbol [ getWidth %tmp.63 46 15 23 ];
+        %tmp.63 = getv function %tmp.62 :getWidth;
+        %tmp.64 = invoke %tmp.62 %tmp.63();
+        %tmp.65 = 2;
+        %tmp.66 = div %tmp.64 %tmp.65;
+        %tmp.67 = lgetv %dc;
+        symbol [ dc %tmp.67 47 12 14 ];
+        symbol [ getHeight %tmp.68 47 15 24 ];
+        %tmp.68 = getv function %tmp.67 :getHeight;
+        %tmp.69 = invoke %tmp.67 %tmp.68();
+        %tmp.70 = 125;
+        %tmp.71 = sub %tmp.69 %tmp.70;
+        symbol [ Graphics %tmp.72 48 12 20 ];
+        %tmp.72 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.73 48 21 31 ];
+        %tmp.73 = getv %tmp.72 :FONT_SMALL;
+        %tmp.74 = "UP/DOWN: Change";
+        symbol [ Graphics %tmp.75 50 12 20 ];
+        %tmp.75 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.76 50 21 40 ];
+        %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.60 %tmp.61(%tmp.66, %tmp.71, %tmp.73, %tmp.74, %tmp.76);
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 53 8 ]
+        %tmp.77 = lgetv %dc;
+        symbol [ dc %tmp.77 53 8 10 ];
+        symbol [ drawText %tmp.78 53 11 19 ];
+        %tmp.78 = getv function %tmp.77 :drawText;
+        %tmp.79 = lgetv %dc;
+        symbol [ dc %tmp.79 54 12 14 ];
+        symbol [ getWidth %tmp.80 54 15 23 ];
+        %tmp.80 = getv function %tmp.79 :getWidth;
+        %tmp.81 = invoke %tmp.79 %tmp.80();
+        %tmp.82 = 2;
+        %tmp.83 = div %tmp.81 %tmp.82;
+        %tmp.84 = lgetv %dc;
+        symbol [ dc %tmp.84 55 12 14 ];
+        symbol [ getHeight %tmp.85 55 15 24 ];
+        %tmp.85 = getv function %tmp.84 :getHeight;
+        %tmp.86 = invoke %tmp.84 %tmp.85();
+        %tmp.87 = 90;
+        %tmp.88 = sub %tmp.86 %tmp.87;
+        symbol [ Graphics %tmp.89 56 12 20 ];
+        %tmp.89 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.90 56 21 31 ];
+        %tmp.90 = getv %tmp.89 :FONT_SMALL;
+        %tmp.91 = "START: Reset";
+        symbol [ Graphics %tmp.92 58 12 20 ];
+        %tmp.92 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.93 58 21 40 ];
+        %tmp.93 = getv %tmp.92 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.77 %tmp.78(%tmp.83, %tmp.88, %tmp.90, %tmp.91, %tmp.93);
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_21_40_60_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 62; @symbol_functiondef = [onHide,62,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 65; @symbol_functiondef = [incrementCount,65,13,27]; ]
+    function incrementCount() as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_65_38_70_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 66 8 ]
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_8_69_8_if_stmt:
+        symbol [ count %tmp.2 66 12 17 ];
+        %tmp.2 = getv ? :count;
+        symbol [ maxCount %tmp.4 66 20 28 ];
+        %tmp.4 = getv ? :maxCount;
+        %tmp.5 = lt %tmp.2 %tmp.4;
+        bf %tmp.5 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_8_69_8_if_end;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_8_69_8_if_true:
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_30_69_8_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 67 12 ]
+        symbol [ count %tmp.8 67 12 17 ];
+        %tmp.8 = getv ? :count;
+        %tmp.9 = add %tmp.8 1;
+        symbol [ count ? 67 12 17 ];
+        putv self :count dup %tmp.9;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 68 12 ]
+        symbol [ WatchUi %tmp.10 68 12 19 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.11 68 20 33 ];
+        %tmp.11 = getv function %tmp.10 :requestUpdate;
+        invoke %tmp.10 %tmp.11();
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_30_69_8_stop:
+        goto @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_8_69_8_if_end;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_66_8_69_8_if_end:
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_65_38_70_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 72; @symbol_functiondef = [decrementCount,72,13,27]; ]
+    function decrementCount() as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_72_38_77_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 73 8 ]
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_8_76_8_if_stmt:
+        symbol [ count %tmp.2 73 12 17 ];
+        %tmp.2 = getv ? :count;
+        symbol [ minCount %tmp.4 73 20 28 ];
+        %tmp.4 = getv ? :minCount;
+        %tmp.5 = gt %tmp.2 %tmp.4;
+        bf %tmp.5 @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_8_76_8_if_end;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_8_76_8_if_true:
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_30_76_8_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 74 12 ]
+        symbol [ count %tmp.8 74 12 17 ];
+        %tmp.8 = getv ? :count;
+        %tmp.9 = sub %tmp.8 1;
+        symbol [ count ? 74 12 17 ];
+        putv self :count dup %tmp.9;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 75 12 ]
+        symbol [ WatchUi %tmp.10 75 12 19 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.11 75 20 33 ];
+        %tmp.11 = getv function %tmp.10 :requestUpdate;
+        invoke %tmp.10 %tmp.11();
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_30_76_8_stop:
+        goto @C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_8_76_8_if_end;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_73_8_76_8_if_end:
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_72_38_77_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 79; @symbol_functiondef = [resetCount,79,13,23]; ]
+    function resetCount() as Void {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_79_34_82_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 80 8 ]
+        %tmp.1 = 0;
+        symbol [ count ? 80 8 13 ];
+        putv self :count %tmp.1;
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 81 8 ]
+        symbol [ WatchUi %tmp.2 81 8 15 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.3 81 16 29 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_79_34_82_4_stop:
+    }
+    [ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 84; @symbol_functiondef = [getCount,84,13,21]; @symbol_return<0> = [Lang,84,27,31]; @symbol_return<1> = [Number,84,32,38]; ]
+    function getCount() as Lang.Number {
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_84_39_86_4_start:
+[ "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc" 85 8 ]
+        symbol [ count %tmp.2 85 15 20 ];
+        %tmp.2 = getv ? :count;
+        ret %tmp.2;
+C__Users_Ahall_Documents_GitHub_garmin_connect_iq_clicker_clickeer_source_clickerView_mc_84_39_86_4_stop:
+    }
+}
+[ @file = "C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clickeer\source\clickerView.mc"; @line = 1; ]
+<init> {
+}
