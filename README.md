@@ -1,2 +1,2 @@
 # garmin-connect-iq-speed-glance
-it is a at a glance widget for garmins to show curent speed
+it is a at a garmin iq application that is a clicker.
