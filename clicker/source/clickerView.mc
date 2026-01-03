@@ -11,26 +11,19 @@ class clickerView extends WatchUi.View {
         View.initialize();
     }
 
-    // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
     }
 
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
     function onShow() as Void {
     }
 
-    // Update the view
     function onUpdate(dc as Dc) as Void {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.clear();
 
-        // Set up font and colors
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
         
-        // Draw title
         dc.drawText(
             dc.getWidth() / 2,
             30,
@@ -39,7 +32,6 @@ class clickerView extends WatchUi.View {
             Graphics.TEXT_JUSTIFY_CENTER
         );
 
-        // Draw count in large text
         var countText = count.toString();
         dc.drawText(
             dc.getWidth() / 2,
@@ -49,7 +41,6 @@ class clickerView extends WatchUi.View {
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         );
 
-        // Draw instructions
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(
             dc.getWidth() / 2,
@@ -68,9 +59,6 @@ class clickerView extends WatchUi.View {
         );
     }
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
     function onHide() as Void {
     }
 
