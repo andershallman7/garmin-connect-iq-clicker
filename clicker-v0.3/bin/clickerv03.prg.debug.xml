@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\Ahall\Documents\GitHub\garmin-connect-iq-clicker\clicker-v0.3\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="1" lineNum="28" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="1" lineNum="29" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="3" lineNum="5" parent="globals/clicker_v0_3MenuDelegate" pc="268435501" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="4" lineNum="5" parent="globals/clicker_v0_3View" pc="268435513" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="5" lineNum="5" parent="globals/clicker_v0_3App" pc="268435525" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="6" lineNum="4" parent="globals/clicker_v0_3Delegate" pc="268435537" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="7" lineNum="11" parent="globals/clicker_v0_3MenuDelegate" pc="268435549" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="7" lineNum="12" parent="globals/clicker_v0_3MenuDelegate" pc="268435551" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="7" lineNum="13" parent="globals/clicker_v0_3MenuDelegate" pc="268435562" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="7" lineNum="14" parent="globals/clicker_v0_3MenuDelegate" pc="268435583" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="7" lineNum="15" parent="globals/clicker_v0_3MenuDelegate" pc="268435594" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="8" lineNum="7" parent="globals/clicker_v0_3MenuDelegate" pc="268435616" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3MenuDelegate.mc" id="8" lineNum="8" parent="globals/clicker_v0_3MenuDelegate" pc="268435618" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="10" lineNum="14" parent="globals/clicker_v0_3View" pc="268435631" symbol="onLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="10" lineNum="15" parent="globals/clicker_v0_3View" pc="268435633" symbol="onLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="11" lineNum="65" parent="globals/clicker_v0_3View" pc="268435667" symbol="incrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="11" lineNum="66" parent="globals/clicker_v0_3View" pc="268435669" symbol="incrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="11" lineNum="67" parent="globals/clicker_v0_3View" pc="268435683" symbol="incrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="11" lineNum="68" parent="globals/clicker_v0_3View" pc="268435698" symbol="incrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="12" lineNum="79" parent="globals/clicker_v0_3View" pc="268435709" symbol="resetCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="12" lineNum="80" parent="globals/clicker_v0_3View" pc="268435711" symbol="resetCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="12" lineNum="81" parent="globals/clicker_v0_3View" pc="268435719" symbol="resetCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="13" lineNum="72" parent="globals/clicker_v0_3View" pc="268435727" symbol="decrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="13" lineNum="73" parent="globals/clicker_v0_3View" pc="268435729" symbol="decrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="13" lineNum="74" parent="globals/clicker_v0_3View" pc="268435743" symbol="decrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="13" lineNum="75" parent="globals/clicker_v0_3View" pc="268435758" symbol="decrementCount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="14" lineNum="10" parent="globals/clicker_v0_3View" pc="268435769" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="14" lineNum="11" parent="globals/clicker_v0_3View" pc="268435771" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="21" parent="globals/clicker_v0_3View" pc="268435784" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="22" parent="globals/clicker_v0_3View" pc="268435787" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="23" parent="globals/clicker_v0_3View" pc="268435803" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="25" parent="globals/clicker_v0_3View" pc="268435811" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="27" parent="globals/clicker_v0_3View" pc="268435824" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="35" parent="globals/clicker_v0_3View" pc="268435855" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="36" parent="globals/clicker_v0_3View" pc="268435868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="44" parent="globals/clicker_v0_3View" pc="268435907" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="45" parent="globals/clicker_v0_3View" pc="268435923" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="16" lineNum="53" parent="globals/clicker_v0_3View" pc="268435962" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="17" lineNum="84" parent="globals/clicker_v0_3View" pc="268436002" symbol="getcount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3View.mc" id="17" lineNum="85" parent="globals/clicker_v0_3View" pc="268436004" symbol="getcount"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="18" lineNum="12" parent="globals/clicker_v0_3App" pc="268436010" symbol="onStart"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="19" lineNum="20" parent="globals/clicker_v0_3App" pc="268436013" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="19" lineNum="21" parent="globals/clicker_v0_3App" pc="268436016" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="19" lineNum="22" parent="globals/clicker_v0_3App" pc="268436036" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="19" lineNum="23" parent="globals/clicker_v0_3App" pc="268436058" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="20" lineNum="7" parent="globals/clicker_v0_3App" pc="268436073" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="20" lineNum="8" parent="globals/clicker_v0_3App" pc="268436075" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3App.mc" id="21" lineNum="16" parent="globals/clicker_v0_3App" pc="268436088" symbol="onStop"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="22" lineNum="7" parent="globals/clicker_v0_3Delegate" pc="268436091" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="22" lineNum="8" parent="globals/clicker_v0_3Delegate" pc="268436093" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="22" lineNum="9" parent="globals/clicker_v0_3Delegate" pc="268436105" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="12" parent="globals/clicker_v0_3Delegate" pc="268436115" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="13" parent="globals/clicker_v0_3Delegate" pc="268436118" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="15" parent="globals/clicker_v0_3Delegate" pc="268436127" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="16" parent="globals/clicker_v0_3Delegate" pc="268436129" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="20" parent="globals/clicker_v0_3Delegate" pc="268436145" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="24" parent="globals/clicker_v0_3Delegate" pc="268436161" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="28" parent="globals/clicker_v0_3Delegate" pc="268436177" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="17" parent="globals/clicker_v0_3Delegate" pc="268436180" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="18" parent="globals/clicker_v0_3Delegate" pc="268436192" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="21" parent="globals/clicker_v0_3Delegate" pc="268436194" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="22" parent="globals/clicker_v0_3Delegate" pc="268436206" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="25" parent="globals/clicker_v0_3Delegate" pc="268436208" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="26" parent="globals/clicker_v0_3Delegate" pc="268436220" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\source\\clicker-v0.3Delegate.mc" id="23" lineNum="29" parent="globals/clicker_v0_3Delegate" pc="268436222" symbol="onKey"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="24" lineNum="14" parent="globals/Rez/Layouts" pc="268436226" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="24" lineNum="15" parent="globals/Rez/Layouts" pc="268436237" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="24" lineNum="17" parent="globals/Rez/Layouts" pc="268436246" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="24" lineNum="19" parent="globals/Rez/Layouts" pc="268436349" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="24" lineNum="20" parent="globals/Rez/Layouts" pc="268436433" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="24" lineNum="22" parent="globals/Rez/Layouts" pc="268436464" symbol="MainLayout"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268436479" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="26" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268436491" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="26" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268436493" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="26" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268436505" symbol="initialize"/>
+<entry filename="C:\\Users\\Ahall\\Documents\\GitHub\\garmin-connect-iq-clicker\\clicker-v0.3\\bin\\gen\\006-B4433-00\\source\\Rez.mcgen" id="26" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268436550" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="8389346" symbol="text"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Menus"/>
+<entry id="23" method="true" symbol="MainLayout"/>
+<entry id="8" object="true" symbol="clicker_v0_3Delegate"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="17" symbol="&lt;globals/clicker_v0_3View/&lt;&gt;maxCount&gt;"/>
+<entry field="true" id="25" symbol="AppName"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="19" method="true" symbol="resetCount"/>
+<entry field="true" id="28" symbol="prompt"/>
+<entry field="true" id="22" symbol="id_monkey"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="20" symbol="&lt;globals/clicker_v0_3Delegate/&lt;&gt;m_view&gt;"/>
+<entry id="14" method="true" symbol="decrementCount"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="30" symbol="item_2"/>
+<entry id="29" symbol="item_1"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="10" object="true" symbol="clicker_v0_3View"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="15" method="true" symbol="getcount"/>
+<entry id="24" object="true" symbol="MainMenu"/>
+<entry id="7" object="true" symbol="clicker_v0_3App"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="13" symbol="&lt;globals/clicker_v0_3View/&lt;&gt;count&gt;"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="18" symbol="&lt;globals/clicker_v0_3View/&lt;&gt;minCount&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="16" method="true" symbol="incrementCount"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="9" object="true" symbol="clicker_v0_3MenuDelegate"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="27" symbol="menu_label_2"/>
+<entry field="true" id="26" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435615" name="item" stackId="1" startPc="268435549"/>
+<entry arg="true" endPc="268435666" name="dc" stackId="1" startPc="268435631"/>
+<entry arg="true" endPc="268436001" name="dc" stackId="1" startPc="268435784"/>
+<entry endPc="268436000" name="countText" stackId="2" startPc="268435787"/>
+<entry endPc="268436072" name="view" stackId="1" startPc="268436016"/>
+<entry endPc="268436072" name="delegate" stackId="2" startPc="268436016"/>
+<entry arg="true" endPc="268436114" name="view" stackId="1" startPc="268436091"/>
+<entry arg="true" endPc="268436225" name="keyEvent" stackId="1" startPc="268436115"/>
+<entry endPc="268436224" name="key" stackId="2" startPc="268436118"/>
+<entry arg="true" endPc="268436478" name="dc" stackId="1" startPc="268436226"/>
+<entry endPc="268436478" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268436237"/>
+<entry endPc="268436478" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268436237"/>
+<entry endPc="268436478" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268436237"/>
+</localVars>
+<deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4433-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="152" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/clicker_v0_3MenuDelegate" offset="214" parentId="globals" symbolId="clicker_v0_3MenuDelegate" type="class"/>
+<dataEntry label="globals/clicker_v0_3View" offset="267" parentId="globals" symbolId="clicker_v0_3View" type="class"/>
+<dataEntry label="globals/clicker_v0_3App" offset="410" parentId="globals" symbolId="clicker_v0_3App" type="class"/>
+<dataEntry label="globals/clicker_v0_3Delegate" offset="481" parentId="globals" symbolId="clicker_v0_3Delegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="543" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="587" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="622" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="657" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="719" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="clicker_v0_3MenuDelegate" startPc="268435501">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="clicker_v0_3View" startPc="268435513">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="clicker_v0_3App" startPc="268435525">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="clicker_v0_3Delegate" startPc="268435537">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435615" name="onMenuItem" parent="clicker_v0_3MenuDelegate" startPc="268435549">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435630" name="initialize" parent="clicker_v0_3MenuDelegate" startPc="268435616">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="clicker_v0_3View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435666" name="onLayout" parent="clicker_v0_3View" startPc="268435631">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435708" name="incrementCount" parent="clicker_v0_3View" startPc="268435667">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435726" name="resetCount" parent="clicker_v0_3View" startPc="268435709">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435768" name="decrementCount" parent="clicker_v0_3View" startPc="268435727">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435783" name="initialize" parent="clicker_v0_3View" startPc="268435769">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="clicker_v0_3View">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436001" name="onUpdate" parent="clicker_v0_3View" startPc="268435784">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436009" name="getcount" parent="clicker_v0_3View" startPc="268436002">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436012" name="onStart" parent="clicker_v0_3App" startPc="268436010">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436072" name="getInitialView" parent="clicker_v0_3App" startPc="268436013">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436087" name="initialize" parent="clicker_v0_3App" startPc="268436073">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436090" name="onStop" parent="clicker_v0_3App" startPc="268436088">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436114" name="initialize" parent="clicker_v0_3Delegate" startPc="268436091">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436225" name="onKey" parent="clicker_v0_3Delegate" startPc="268436115">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436478" name="MainLayout" parent="Layouts" startPc="268436226">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436490" name="&lt;init&gt;" parent="MainMenu" startPc="268436479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436595" name="initialize" parent="MainMenu" startPc="268436491">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
