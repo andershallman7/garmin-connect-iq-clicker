@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# macOS system files
+.DS_Store
+
+# Build output
+bin/
+
+# Developer keys (in case someone accidentally adds them)
+*.der
